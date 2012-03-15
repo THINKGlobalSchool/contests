@@ -23,6 +23,9 @@ $english = array(
 </ul>",
 
 	'contests:barge:instructions' => "To submit your video, upload a new <a target='_blank' href='videos/add'>Spot Video</a> and tag it with: <br /><br /><center><b>atlargeonthebarge</b></center>",
+	
+	'contests:barge:promo' => "It is time to challenge each other to a film competition.<br /><br />While we are on the Chao Praya river barge trip, if you so choose to accept the challenge, use your iPhone (or other camera) and experiences to create a short film.
+<br /><br/><a target='_blank' href='%s'>View complete details</a>",
 		
 	// Labels
 	'contests:label:instructions' => 'Instructions',

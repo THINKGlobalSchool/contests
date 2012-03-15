@@ -15,6 +15,7 @@
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
-	margin-bottom: 8px;
+	margin-bottom: 24px;
+	margin-top: 10px;
 	color: #555555;
 }
