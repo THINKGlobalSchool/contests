@@ -52,6 +52,6 @@ function barge_page_handler($page) {
 
 	$body = elgg_view_layout('one_sidebar', $params);
 
-	echo elgg_view_page($params['title'], $body);
+	echo elgg_view_page(elgg_echo('contests:barge:title'), $body);
 	return true;
 }

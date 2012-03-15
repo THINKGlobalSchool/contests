@@ -11,11 +11,11 @@
  */
 ?>
 
-.contests-barge-instructions ul {
+.contests-barge-details ul {
 	list-style: square inside none;
 }
 
-.contests-barge-instructions ul li {
+.contests-barge-details ul li {
 	margin-top: 5px;
 	margin-left: 5px;
 }

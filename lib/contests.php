@@ -11,17 +11,24 @@
  */
 
 // Barge video contest content
-function contests_barge_content() {
-	$params['title'] = elgg_echo('contests:barge:title');
-	
+function contests_barge_content() {	
 	$params['content'] = elgg_view('contests/barge/videos');
 	
 	$params['sidebar'] = elgg_view_module(
 		'aside', 
-		elgg_echo('contests:label:instructions'), 
-		elgg_echo('contests:barge:description'),
+		elgg_echo('contests:label:details'), 
+		elgg_echo('contests:barge:details'),
 		array(
-			'class' => 'contests-barge-instructions',
+			'class' => 'contests-barge-details',
+		)
+	);
+	
+	$params['sidebar'] .= elgg_view_module(
+		'aside', 
+		elgg_echo('contests:label:instructions'), 
+		elgg_echo('contests:barge:instructions'),
+		array(
+			'class' => 'contests-barge-details',
 		)
 	);
 

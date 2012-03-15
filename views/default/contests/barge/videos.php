@@ -14,7 +14,7 @@ $options = array(
 	'type' => 'object',
 	'subtype' => 'simplekaltura_video',
 	'metadata_name' => 'tags',
-	'metadata_value' => 'bargecontest',
+	'metadata_value' => 'atlargeonthebarge',
 	'limit' => 100,
 );
 
@@ -58,7 +58,12 @@ for ($i = 0; $i < $empty_box_count; $i++) {
 HTML;
 }
 
+$page_title = elgg_echo('contests:barge:title');
+
 $content = <<<HTML
+	<div class='contests-title'>
+		$page_title
+	</div>
 	<div id='contests-barge-videos-container'>
 		$video_content
 	</div>

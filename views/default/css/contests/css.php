@@ -10,3 +10,11 @@
  * 
  */
 ?>
+.contests-title {
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 8px;
+	color: #555555;
+}
