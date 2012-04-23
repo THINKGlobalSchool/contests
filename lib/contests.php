@@ -34,3 +34,26 @@ function contests_barge_content() {
 
 	return $params;
 }
+
+function contests_barge_winner_content() {
+	$params['sidebar'] = elgg_view_module(
+		'aside', 
+		elgg_echo('contests:label:details'), 
+		elgg_echo('contests:barge:details'),
+		array(
+			'class' => 'contests-barge-details',
+		)
+	);
+	
+	$params['sidebar'] .= elgg_view_module(
+		'aside', 
+		elgg_echo('contests:label:instructions'), 
+		elgg_echo('contests:barge:instructions'),
+		array(
+			'class' => 'contests-barge-details',
+		)
+	);
+	
+	$params['content'] = elgg_view('contests/barge/winner');
+	return $params;
+}

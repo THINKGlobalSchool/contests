@@ -51,8 +51,9 @@ function barge_page_handler($page) {
 	elgg_load_js('elgg.contests');
 	elgg_load_js('elgg.contests.barge');
 	
-	$params = contests_barge_content();
-
+	//$params = contests_barge_content();
+	$params = contests_barge_winner_content();
+	
 	$body = elgg_view_layout('one_sidebar', $params);
 
 	echo elgg_view_page(elgg_echo('contests:barge:title'), $body);
