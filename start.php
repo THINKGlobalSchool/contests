@@ -40,7 +40,7 @@ function contests_init() {
 	elgg_register_page_handler('bargecontest', 'barge_page_handler');
 	
 	// Extend video sidebar
-	elgg_extend_view('simplekaltura/sidebar', 'contests/barge/promo');
+	//elgg_extend_view('simplekaltura/sidebar', 'contests/barge/promo');
 }
 
 // Barge contest page handler 
