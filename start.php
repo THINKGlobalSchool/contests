@@ -18,22 +18,18 @@ function contests_init() {
 
 	// Register general JS
 	$g_js = elgg_get_simplecache_url('js', 'contests/contests');
-	elgg_register_simplecache_view('js/contests/contests');
 	elgg_register_js('elgg.contests', $g_js);
 
 	// Register the barge JS
 	$b_js = elgg_get_simplecache_url('js', 'contests/barge/barge');
-	elgg_register_simplecache_view('js/contests/barge/barge');
 	elgg_register_js('elgg.contests.barge', $b_js);
 	
 	// Register general JS
 	$g_css = elgg_get_simplecache_url('css', 'contests/css');
-	elgg_register_simplecache_view('css/contests/css');
 	elgg_register_css('elgg.contests', $g_css);
 
 	// Register the barge JS
 	$b_css = elgg_get_simplecache_url('css', 'contests/barge/css');
-	elgg_register_simplecache_view('css/contests/barge/css');
 	elgg_register_css('elgg.contests.barge', $b_css);
 
 	// Barge trip page handler
