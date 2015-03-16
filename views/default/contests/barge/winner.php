@@ -12,6 +12,7 @@
 
 $page_title = elgg_echo('contests:barge:title');
 
+// Add a guid here to make it work
 $video = get_entity();
 
 if (!$video) {
